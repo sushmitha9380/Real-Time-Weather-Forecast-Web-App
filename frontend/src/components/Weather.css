@@ -1,0 +1,78 @@
+
+
+/* Full background */
+body {
+  background: linear-gradient(to right, #2c3e50, #3498db);
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+/* Card container */
+.card {
+  background: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+/* Title */
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+/* Input field */
+input.form-control {
+  border-radius: 10px 0 0 10px;
+  border: 1px solid #ced4da;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+/* Search button */
+.btn-primary {
+  border-radius: 0 10px 10px 0;
+  background-color: #2980b9;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.btn-primary:hover {
+  background-color: #1c5980;
+}
+
+/* Alert style */
+.alert {
+  background-color: #f44336;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+/* Weather result text */
+.weather-result h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.weather-result p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.weather-result img {
+  width: 80px;
+  height: 80px;
+}
