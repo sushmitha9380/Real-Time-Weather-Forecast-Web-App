@@ -10,7 +10,7 @@ def weather_view(request, city):
     if not city:
         return Response({'error': 'City not provided'}, status=400)
 
-    api_key = os.getenv('OPENWEATHER_API_KEY') or 'deb28d8f6a7783246b080b2e0d11c844'
+    api_key = os.getenv('OPENWEATHER_API_KEY')
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&appid={api_key}"
 
     try:
