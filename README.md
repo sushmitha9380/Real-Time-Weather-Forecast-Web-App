@@ -36,34 +36,40 @@ This Weather App fetches and displays current weather data including temperature
    ```bash
    git clone https://github.com/yourusername/weather-app.git
    cd weather-app
-## Installation & Setup
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/weather-app.git
-   cd weather-app
+   ```
    
-``Create a virtual environment and activate it:
+2. **Create a virtual environment and activate it:**
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 
-Install backend dependencies:
+3. **Install backend dependencies:**
+```bash
 pip install -r requirements.txt
+```
 
-Install frontend dependencies:
+4. **Install frontend dependencies:**
+```bash
 cd frontend
 npm install
+```
 
-Run Django migrations:
+5.**Run Django migrations:**
+```bash
 cd ..
+python manage.py makemigrations
 python manage.py migrate
+```
 
-Start the development servers:
-Start backend Django server:
+6.**Start the development servers:**
+***Start backend Django server:***
+```bash
 python manage.py runserver
+```
 
-Start React frontend server (in another terminal):
+***Start React frontend server (in another terminal):***
+```bash
 cd frontend
 npm start
+```
