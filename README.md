@@ -55,14 +55,15 @@ cd frontend
 npm install
 ```
 
-5.**Run Django migrations:**
+5. **Run Django migrations:**
 ```bash
 cd ..
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-6.**Start the development servers:**
+6. **Start the development servers:**
+
 ***Start backend Django server:***
 ```bash
 python manage.py runserver
@@ -73,3 +74,29 @@ python manage.py runserver
 cd frontend
 npm start
 ```
+---
+
+## Usage
+
+- Open the React app in your browser (usually at http://localhost:3000).
+- Enter the city name to get the current weather.
+- The app will display temperature, humidity, wind speed, and weather conditions.
+
+---
+
+## Sample Output
+
+- City: New York
+- Temperature: 25°C
+- Humidity: 60%
+- Wind Speed: 15 km/h
+- Condition: Clear Sky
+
+---
+
+## Contact
+*For any questions or suggestions, please contact:*
+
+- Sushmitha
+- Email: sushmithars5992@gmail.com
+- GitHub: sushmitha9380
