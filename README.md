@@ -39,41 +39,41 @@ This Weather App fetches and displays current weather data including temperature
    ```
    
 2. **Create a virtual environment and activate it:**
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-```
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
 
 3. **Install backend dependencies:**
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 4. **Install frontend dependencies:**
-```bash
-cd frontend
-npm install
-```
+   ```bash
+   cd frontend
+   npm install
+   ```
 
 5. **Run Django migrations:**
-```bash
-cd ..
-python manage.py makemigrations
-python manage.py migrate
-```
+   ```bash
+   cd ..
+   python manage.py makemigrations
+   python manage.py migrate
+   ```
 
 6. **Start the development servers:**
 
-***Start backend Django server:***
-```bash
-python manage.py runserver
-```
-
-***Start React frontend server (in another terminal):***
-```bash
-cd frontend
-npm start
-```
+   ***Start backend Django server:***
+   ```bash
+   python manage.py runserver
+   ```
+   
+   ***Start React frontend server (in another terminal):***
+   ```bash
+   cd frontend
+   npm start
+   ```
 ---
 
 ## Usage
